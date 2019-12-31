@@ -1,0 +1,9 @@
+{% extends "!layout.html" %}
+
+{%- block footer %}
+    <footer id="pagefooter">
+    <a href="{{ pathto(master_doc) }}">&copy; {{ copyright }} </a>
+  </footer>
+
+{%- endblock %}
+{{ super() }}
